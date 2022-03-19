@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  background : url("pattern.svg") #161a36;
+  background-size : 200px;
+  background-position: center center;
+  color : #fff;
+  text-align: center;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding : 0;
+  margin : 0;
+  padding-top : 20px;
+}
+
+
+#container{
+  margin: auto;
+  left : 0;
+  right : 0;
+  position:relative;
+  display: inline-block;
+}
+
+
+#rules{
+  text-align: left;
+}
+a{
+  text-decoration: none;
+  color : #ef3257;
+}
+a:hover{
+  border-bottom : solid #ef3257 1px;
+}
+
+#wrapper{
+  width : 100%;
+  max-width : 600px;
+  margin : auto;
+  left : 0;
+  right : 0;
+  padding-top : 40px;
+}
+
+#popover{
+  color : #fff;
+  position : fixed;
+  top : 0;
+  width : 100%;
+  height : 40px;
+  background: #ef3257;
+  justify-content : center;
+  align-items: center;
+}
+
+#popover p{
+  margin: 0;
+  padding: 8px;
+}

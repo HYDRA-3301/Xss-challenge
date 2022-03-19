@@ -1,0 +1,61 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from javascript.challenge-0121.intigriti.io/ by HTTrack Website Copier/3.x [XR&CO'2017], Sat, 19 Mar 2022 14:15:17 GMT -->
+<head>
+  <title>Intigriti January Challenge</title>
+  <meta charset="UTF-8">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@intigriti">
+  <meta name="twitter:creator" content="@intigriti">
+  <meta name="twitter:title" content="January XSS Challenge - Intigriti">
+  <meta name="twitter:description" content="Find the XSS and WIN Intigriti swag.">
+  <meta name="twitter:image" content="../challenge-0121.intigriti.io/share.jpg">
+  <meta property="og:url" content="../external.html?link=https://challenge-0121.intigriti.io/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="January XSS Challenge - Intigriti" />
+  <meta property="og:description" content="Find the XSS and WIN Intigriti swag." />
+  <meta property="og:image" content="../challenge-0121.intigriti.io/share.jpg" />
+  <link href="../external.html?link=https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <div id="popover"><p>We just hit 30,000 Twitter followers! Thank you!</p></div>
+  <section id="wrapper">
+  <header>
+    <img src="logo-researcher.png">
+    <h1><a href="../external.html?link=https://www.intigriti.com/">Intigriti</a>'s January XSS Challenge</h1>
+  </header>
+  <section id="rules">
+    <div id="challenge-container">
+  <div id="challenge-info">
+    <p>Find a way to execute arbitrary javascript on this page and win Intigriti swag.</p>
+    <b>Rules:</b>
+    <ul>
+      <li>This challenge runs from January 25th until January 31th, 11:59 PM CET.</li>
+      <li>Out of all correct submissions, we will draw <b>six</b> winners on Monday, February 1st:
+        <ul>
+          <li>Three randomly drawn correct submissions</li>
+          <li>Three best write-ups</li>
+        </ul>
+      </li>
+      <li>Every winner gets a €50 swag voucher for our <a href="../external.html?link=https://swag.intigriti.com/" target="_blank">swag shop</a></li>
+      <li>The winners will be announced on our <a href="../external.html?link=https://twitter.com/intigriti" target="_blank">Twitter profile</a>.</li>
+      <li>For every 100 likes, we'll add a tip to <a href="../external.html?link=https://go.intigriti.com/challenge-tips" target="_blank">announcement tweet</a>.</li>
+    </ul>
+    <b>The solution...</b>
+    <ul>
+      <li>Should work on the latest version of Firefox or Chrome</li>
+      <li>Should <code>alert()</code> the following flag: <code id="flag">{THIS_IS_THE_FLAG}</code>.</li>
+      <li>Should leverage a cross site scripting vulnerability on this page.</li>
+      <li>Shouldn't be self-XSS or related to MiTM attacks</li>
+      <li>Should be reported at <a href="../external.html?link=https://go.intigriti.com/submit-solution">go.intigriti.com/submit-solution</a></li>
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+<!-- Mirrored from javascript.challenge-0121.intigriti.io/ by HTTrack Website Copier/3.x [XR&CO'2017], Sat, 19 Mar 2022 14:15:22 GMT -->
+</html>
